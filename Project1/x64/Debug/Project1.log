@@ -1,3 +1,4 @@
-﻿  Performing Custom Build Tools
+﻿C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(548,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Performing Custom Build Tools
   main.c
-  Project1.vcxproj -> C:\Users\jlgfd\Documents\GitHub\GROUP6-LBYARCH-MP2\x64\Debug\Project1.exe
+  Project1.vcxproj -> C:\Users\jlgfd\Documents\GitHub\GROUP6-LBYARCH-MP2\x64\Debug\GROUP6-LBYARCH-MP2.exe
