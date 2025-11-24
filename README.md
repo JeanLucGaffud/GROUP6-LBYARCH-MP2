@@ -14,8 +14,8 @@
 
 [Detailed Raw Output](./resources/average_execution_time_raw.txt)
 ### Analysis
-The `Speedup (x86-64 / C)` column refers to the rate that the x86-64 kernel is faster than the C kernel. From this we can conclude that the x86-64 kernel runs significantly faster than the C kernel.
+The `Speedup (x86-64 / C)` column refers to the rate that the x86-64 kernel is faster than the C kernel. From the table, we see that the x86-64 kernel performed significantly faster than the C kernel. The main reason for this is because assembly gives you very direct control over the CPU, so it can run the instructions with less overhead. The compiler also adds extra steps in C to keep the code general and safe, which slows it down relative to the x86-64 kernel. By writing the kernel in assembly, the program can access data and registers more efficiently, leading to faster execution.
 ## Program Output
-![Picture of Sample Run Output with Correctness Check (This is ALT Text if you see this, please load the image or look under resources folder)](./resources/sample_output.png)
+![Picture of Sample Run Output with Correctness Check (This is ALT Text so if you see this, please load the image or look under the resources folder)](./resources/sample_output.png)
 
 
