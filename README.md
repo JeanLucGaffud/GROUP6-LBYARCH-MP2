@@ -8,9 +8,11 @@
 ### Average Execution Time in Seconds (After 30 Runs)
 | Vector Size | C Kernel | x86-64 Kernel | Speedup (x86-64 / C)
 |--|--|--|--|
-| 2<sup>20</sup> | 0.002167 | 0.000567 | 3.82x |
-| 2<sup>24</sup> | 0.029367 | 0.012267 | 2.39x |
-| 2<sup>28</sup> | 0.475200 | 0.205500 | 2.31x |
+| 2<sup>20</sup> | 0.001733 | 0.000467 | 3.71x |
+| 2<sup>24</sup> | 0.027633 | 0.010633 | 2.60x |
+| 2<sup>28</sup> | 0.441500 | 0.174233 | 2.53x |
+
+[Detailed Raw Output](./resources/average_execution_time_raw.txt)
 ### Analysis
 The `Speedup (x86-64 / C)` column refers to the rate that the x86-64 kernel is faster than the C kernel. From this we can conclude that the x86-64 kernel runs significantly faster than the C kernel.
 ## Program Output
