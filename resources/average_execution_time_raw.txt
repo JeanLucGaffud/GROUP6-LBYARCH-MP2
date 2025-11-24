@@ -1,0 +1,105 @@
+0=Manual input, 1=Run tests: 1
+
+--- n = 2^20 (1048576 elements) ---
+C Version: 0.001733 seconds
+First 10 elements:
+  Z[0] = 0.236122
+  Z[1] = 0.799890
+  Z[2] = 1.469558
+  Z[3] = 2.857723
+  Z[4] = 0.602802
+  Z[5] = 3.576312
+  Z[6] = 1.745720
+  Z[7] = 0.944395
+  Z[8] = 0.797174
+  Z[9] = 3.052522
+
+Assembly Version: 0.000467 seconds
+First 10 elements:
+  Z[0] = 0.236122
+  Z[1] = 0.799890
+  Z[2] = 1.469558
+  Z[3] = 2.857723
+  Z[4] = 0.602802
+  Z[5] = 3.576312
+  Z[6] = 1.745720
+  Z[7] = 0.944395
+  Z[8] = 0.797174
+  Z[9] = 3.052522
+
+CORRECT
+
+Performance:
+  C:        0.001733 seconds
+  Assembly: 0.000467 seconds
+  Speedup: 3.71x (Assembly faster)
+
+--- n = 2^24 (16777216 elements) ---
+C Version: 0.027633 seconds
+First 10 elements:
+  Z[0] = 0.236122
+  Z[1] = 0.799890
+  Z[2] = 1.469558
+  Z[3] = 2.857723
+  Z[4] = 0.602802
+  Z[5] = 3.576312
+  Z[6] = 1.745720
+  Z[7] = 0.944395
+  Z[8] = 0.797174
+  Z[9] = 3.052522
+
+Assembly Version: 0.010633 seconds
+First 10 elements:
+  Z[0] = 0.236122
+  Z[1] = 0.799890
+  Z[2] = 1.469558
+  Z[3] = 2.857723
+  Z[4] = 0.602802
+  Z[5] = 3.576312
+  Z[6] = 1.745720
+  Z[7] = 0.944395
+  Z[8] = 0.797174
+  Z[9] = 3.052522
+
+CORRECT
+
+Performance:
+  C:        0.027633 seconds
+  Assembly: 0.010633 seconds
+  Speedup: 2.60x (Assembly faster)
+
+--- n = 2^28 (268435456 elements) ---
+C Version: 0.441500 seconds
+First 10 elements:
+  Z[0] = 0.236122
+  Z[1] = 0.799890
+  Z[2] = 1.469558
+  Z[3] = 2.857723
+  Z[4] = 0.602802
+  Z[5] = 3.576312
+  Z[6] = 1.745720
+  Z[7] = 0.944395
+  Z[8] = 0.797174
+  Z[9] = 3.052522
+
+Assembly Version: 0.174233 seconds
+First 10 elements:
+  Z[0] = 0.236122
+  Z[1] = 0.799890
+  Z[2] = 1.469558
+  Z[3] = 2.857723
+  Z[4] = 0.602802
+  Z[5] = 3.576312
+  Z[6] = 1.745720
+  Z[7] = 0.944395
+  Z[8] = 0.797174
+  Z[9] = 3.052522
+
+CORRECT
+
+Performance:
+  C:        0.441500 seconds
+  Assembly: 0.174233 seconds
+  Speedup: 2.53x (Assembly faster)
+
+--- All tests completed ---
