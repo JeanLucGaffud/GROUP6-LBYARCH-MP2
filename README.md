@@ -3,7 +3,7 @@
 - Gaffud, Jean Luc
 - Helbling, John Patrick
 ## Video Presentation
-- 
+[Watch with DLSU Account](https://drive.google.com/file/d/11tX2pNPmQntfNpqGq5BGUaIh6LkgBhD4/view)
 ## Execution Time and Analysis
 ### Average Execution Time in Seconds (After 30 Runs)
 | Vector Size | C Kernel | x86-64 Kernel | Speedup (x86-64 / C)
@@ -14,6 +14,6 @@
 ### Analysis
 The `Speedup (x86-64 / C)` column refers to the rate that the x86-64 kernel is faster than the C kernel. From this we can conclude that the x86-64 kernel runs significantly faster than the C kernel.
 ## Program Output
-- ***Take a screenshot of the program output with the correctness check ( C ).***
-- ***Take a screenshot of the program output, including the correctness check (x86-64).***
+![Picture of Sample Run Output with Correctness Check (This is ALT Text if you see this, please load the image or look under resources folder)](./resources/sample_output.png)
+
 
